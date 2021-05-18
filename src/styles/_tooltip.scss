@@ -1,0 +1,18 @@
+.tooltip {
+  &.info {
+    $color: $primary;
+    .tooltip-inner {
+      font-size: $font-size-small;
+      background: $light;
+      color: $grey-darken;
+      padding: 5px;
+      border-radius: $radius-small;
+      border: 1px solid $grey;
+      max-width: 250px;
+    }
+
+    .tooltip-arrow {
+      border-color: $color;
+    }
+  }
+}

@@ -1,0 +1,13 @@
+
+@import "./vars.scss";                                        // Define las variables de estilo que se utilizan en el proyecto 
+@import "/node_modules/bootstrap/scss/bootstrap-grid.scss";   // Incluye solo los estilos que facilitan las estructura, como containers, row, col, etc
+@import "./_reload.scss";                                     // Incluye maodificaciones a elementos html base, como "body", "input", "button", etc 
+@import "./_spacing.scss";                                    // incluye clases que permiten gentionar "padding" y "margin" utiliza la misma nomencaltura de boostrap, ej: m-2, mt-3, mx-2, p-1, pb-2 py-4
+@import "./_tooltip.scss";                                    // Incluye los estilos asociados al tooltip
+@import "./_text.scss";                                       // Incluye clases que permite modificar la apariencia de texto y fuentes
+@import "./_size.scss";                                       // Incluye clases utilitarias para manejar dimensiones de elementos
+
+@import "./_button.scss";                                     // Incluye los estilos asociados a los botones
+@import "./_card.scss";                                       // Incluye los estilos para generar elementos con apariencia tipo "card"
+@import "./_avatar.scss";
+

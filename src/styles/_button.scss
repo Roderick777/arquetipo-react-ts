@@ -1,0 +1,38 @@
+.btn{
+  font-size: .8rem;
+  border-radius: $radius-small;
+  transition: .3s all cubic-bezier(0.075, 0.82, 0.165, 1);
+  &-primary{
+    background-color: $primary;
+    color: $light;
+    &:hover{
+      box-shadow: 2px 2px 8px -3px rgba($primary, .8);
+    }
+    &-outline {
+      background-color: transparent;
+      color: $primary;
+      border: 1px solid $primary;
+      &:hover {
+        background-color: $primary;
+        color: $light;
+      }
+    }
+  }
+
+  &-secondary{
+    background-color: $secondary;
+    color: $light;
+    &:hover{
+      box-shadow: 2px 2px 8px -3px rgba($secondary, .8);
+    }
+    &-outline {
+      background-color: transparent;
+      color: $secondary;
+      border: 1px solid $secondary;
+      &:hover {
+        background-color: $secondary;
+        color: $light;
+      }
+    }
+  }
+}
